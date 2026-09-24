@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your data – Aurora Piano</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+  :root { --ebony:#1A1B26; --ivory:#FDFDFB; --felt:#7A1F2B; --mist:#EEF0F4; --ink:#2B2D3A; --rule:#D6D9E0; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--ivory); color:var(--ink);
+         font:1.0625rem/1.65 "Atkinson Hyperlegible", system-ui, sans-serif; }
+  .keys { height:34px; background:
+          repeating-linear-gradient(90deg, var(--ivory) 0 30px, var(--rule) 30px 31px); position:relative; border-bottom:4px solid var(--felt); }
+  .keys::after { content:""; position:absolute; inset:0 0 12px 0; background:
+          repeating-linear-gradient(90deg, transparent 0 21px, var(--ebony) 21px 40px, transparent 40px 52px,
+          var(--ebony) 52px 71px, transparent 71px 93px, transparent 93px 114px, var(--ebony) 114px 133px,
+          transparent 133px 145px, var(--ebony) 145px 164px, transparent 164px 176px, var(--ebony) 176px 195px,
+          transparent 195px 217px); }
+  main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+  h1 { font-family:"Fraunces", Georgia, serif; font-weight:600; font-size:clamp(1.9rem, 5vw, 2.6rem);
+       line-height:1.15; margin:0 0 .5rem; color:var(--ebony); }
+  .by { margin:0 0 2rem; color:#5B5E6E; }
+  h2 { font-size:1.2rem; margin:2.25rem 0 .6rem; color:var(--ebony); }
+  ol { padding-left:1.4rem; } li { margin-bottom:.7rem; }
+  .email { display:inline-block; margin-top:.25rem; padding:.55rem .9rem; background:var(--ebony); color:var(--ivory);
+           border-radius:6px; text-decoration:none; font-weight:700; }
+  .email:focus-visible, a:focus-visible { outline:3px solid var(--felt); outline-offset:3px; }
+  table { width:100%; border-collapse:collapse; margin-top:.5rem; font-size:.98rem; }
+  th, td { text-align:left; vertical-align:top; padding:.65rem .5rem; border-bottom:1px solid var(--rule); }
+  th { width:34%; color:var(--ebony); }
+  .note { background:var(--mist); border-left:4px solid var(--felt); padding:.9rem 1rem; border-radius:0 6px 6px 0; margin-top:1.5rem; }
+  code { background:var(--mist); padding:.1rem .35rem; border-radius:4px; }
+  footer { margin-top:3rem; font-size:.9rem; color:#5B5E6E; }
+  a { color:var(--felt); }
+</style>
+</head>
+<body>
+<div class="keys" aria-hidden="true"></div>
+<main>
+  <h1>Delete your Aurora Piano data</h1>
+  <p class="by">Aurora Piano is published on Google Play by SNK App Developer.</p>
+
+  <p>Aurora Piano has no user accounts and never asks for your name, email or phone number. The only data we hold about you is a record of subscription purchases, linked to a random anonymous ID, kept by our subscription provider RevenueCat.</p>
+
+  <h2>How to request deletion</h2>
+  <ol>
+    <li>Email us from any address:<br>
+      <a class="email" href="mailto:aurorapiano.support@gmail.com?subject=Delete%20my%20data%20-%20Aurora%20Piano">aurorapiano.support@gmail.com</a><br>
+      Subject: <strong>Delete my data – Aurora Piano</strong>.</li>
+    <li>Include your Google Play order number (it starts with <code>GPA.</code>). Find it in Google’s purchase receipt email, or in the Play Store app under Profile › Payments &amp; subscriptions › Budget &amp; history. Because there are no accounts, this is the only way we can find your record.</li>
+    <li>We delete your record and confirm by reply within 30 days.</li>
+  </ol>
+  <p>If you never bought a subscription, we hold no data about you. Uninstalling the app removes everything stored on your phone.</p>
+
+  <h2>What is deleted and what is kept</h2>
+  <table>
+    <tr><th scope="row">Deleted</th><td>Your anonymous app ID and purchase history stored with RevenueCat.</td></tr>
+    <tr><th scope="row">Kept by us</th><td>Transaction totals in our accounting records, only for as long as Indian tax law requires. These contain no name or contact details.</td></tr>
+    <tr><th scope="row">Kept by Google</th><td>Your Google Play order and payment records, handled under Google’s own privacy policy.</td></tr>
+    <tr><th scope="row">On your phone</th><td>Settings and progress stay until you uninstall the app or clear its storage (Settings › Apps › Aurora Piano › Storage › Clear data).</td></tr>
+  </table>
+
+  <div class="note">Deleting your data does not cancel a subscription. Cancel first in the Play Store under Payments &amp; subscriptions. If you tap “Restore purchases” later, a new anonymous record is created.</div>
+
+  <footer>See also our <a href="privacy-policy.html">privacy policy</a>. Last updated 24 September 2026.</footer>
+</main>
+</body>
+</html>
